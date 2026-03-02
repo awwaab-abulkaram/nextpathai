@@ -8,12 +8,10 @@ import {
   FiUser,
   FiPieChart,
   FiBookOpen,
-  FiArrowRight,
-  FiEdit2,
+
 } from "react-icons/fi";
 import { MdSchool, MdTimeline, MdOutlineLibraryBooks } from "react-icons/md";
-import { AiOutlineCheckCircle, AiOutlineClockCircle } from "react-icons/ai";
-import { BsFillChatDotsFill } from "react-icons/bs";
+
 
 export default function Dashboard() {
   const [user, setUser] = useState(null);
