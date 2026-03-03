@@ -21,7 +21,17 @@
   grid-template-columns: repeat(1, 1fr);
   gap: 2rem;
 }
-
+.assess-dom{
+  gap : 1rem;
+  margin-top: 1rem;
+}
+.button-container{
+  margin-top: 1rem;
+}
+.quiz-opts{
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+}
 @media (min-width: 768px) {
   .how-grid {
     grid-template-columns: repeat(2, 1fr);

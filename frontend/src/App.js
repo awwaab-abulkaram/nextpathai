@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Assessment from "./pages/Assessment";
 import RiasecQuiz from "./pages/RiasecQuiz";
-
+import AcademicQuizScience from "./pages/AcademicQuizScience";
 function App() {
   return (
     <Router>
@@ -13,7 +13,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/assessment" element={<Assessment />} />
-           <Route path="/assessment/riasec" element={<RiasecQuiz />} />
+          <Route path="/assessment/riasec" element={<RiasecQuiz />} />
+          <Route path="/assessment/science" element={<AcademicQuizScience />} />
         </Routes>
       </div>
     </Router>

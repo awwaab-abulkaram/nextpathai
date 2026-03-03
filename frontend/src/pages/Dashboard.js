@@ -1,145 +1,139 @@
-// src/pages/Dashboard.jsx
-import { useState, useEffect, useMemo } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
-import { auth } from "../firebase";
-
-import {
-  FiBell,
-  FiUser,
-  FiPieChart,
-  FiBookOpen,
-
-} from "react-icons/fi";
-import { MdSchool, MdTimeline, MdOutlineLibraryBooks } from "react-icons/md";
-
+import Footer from "../components/Footer";
+import axios from "axios";
+import { getAuth } from "firebase/auth";
 
 export default function Dashboard() {
-  const [user, setUser] = useState(null);
+  const [profile, setProfile] = useState(null);
+  const [loading, setLoading] = useState(true);
 
+  // Load profile on mount
   useEffect(() => {
-    const unsub = auth.onAuthStateChanged((firebaseUser) => {
-      if (firebaseUser) setUser(firebaseUser);
-      else {
-        const offlineUser = localStorage.getItem("offlineUser");
-        setUser(offlineUser ? JSON.parse(offlineUser) : null);
+    // 1️⃣ Load from localStorage first (offline safe)
+    const stored = localStorage.getItem("riasecResult");
+    if (stored) {
+      setProfile(JSON.parse(stored));
+    }
+
+    // 2️⃣ Fetch from backend (if logged in)
+    const fetchProfile = async () => {
+      try {
+        const auth = getAuth();
+        const user = auth.currentUser;
+
+        if (user) {
+          const res = await axios.get(
+            `http://localhost:5000/profile/${user.uid}`
+          );
+
+          if (res.data && res.data.riasec) {
+            setProfile(res.data.riasec);
+
+            // Sync localStorage with backend version
+            localStorage.setItem(
+              "riasecResult",
+              JSON.stringify(res.data.riasec)
+            );
+          }
+        }
+      } catch (error) {
+        console.error("Error fetching profile:", error);
+      } finally {
+        setLoading(false);
       }
-    });
-    return () => unsub();
+    };
+
+    fetchProfile();
   }, []);
 
-  const profile = useMemo(
-    () => ({
-      name:
-        user?.displayName ||
-        (user?.email ? user.email.split("@")[0] : "Guest Student"),
-      class: "12th Grade",
-      assessmentStatus: "Not started",
-      profileCompletion: 38,
-      avatar:
-        user?.photoURL ||
-        "https://ui-avatars.com/api/?name=Student&background=607D8B&color=fff",
-      location: "India",
-    }),
-    [user]
-  );
-
-  const quickActions = [
-    { id: "assessment", title: "Take Psychometric Test", subtitle: "Understand strengths", icon: FiBookOpen },
-    { id: "profile", title: "Complete Profile", subtitle: "Better recommendations", icon: FiUser },
-    { id: "recommend", title: "View Recommendations", subtitle: "AI matched careers", icon: FiPieChart },
-    { id: "careers", title: "Explore Careers", subtitle: "Browse career paths", icon: MdTimeline },
-    { id: "colleges", title: "Find Govt Colleges", subtitle: "Filtered for you", icon: MdSchool },
-    { id: "resources", title: "Resources Hub", subtitle: "Guides & articles", icon: MdOutlineLibraryBooks },
-  ];
-
-  const journeySteps = [
-    { id: 1, title: "Create Profile", status: "done" },
-    { id: 2, title: "Take Assessment", status: "pending" },
-    { id: 3, title: "Get AI Recommendations", status: "pending" },
-    { id: 4, title: "Explore Courses", status: "pending" },
-    { id: 5, title: "Find Colleges", status: "pending" },
-  ];
-
-  const recommendations = [
-    { title: "Data Science", fit: 87, desc: "Strong analytical & math aptitude" },
-    { title: "Product Design", fit: 72, desc: "Creative + problem solver" },
-    { title: "Business Analytics", fit: 68, desc: "Good for hybrid roles" },
-  ];
-
-  const colleges = [
-    { name: "Govt. Engineering College A", city: "City A", cutoff: "85-90%" },
-    { name: "Govt. Arts & Science College B", city: "City B", cutoff: "75-80%" },
-  ];
-
-  const notifications = [
-    { id: 1, text: "Assessment available: 'Aptitude Basic'", time: "2d ago", unread: true },
-    { id: 2, text: "Recommendation: Data Science (87% fit)", time: "5d ago" },
-    { id: 3, text: "Admission deadline for College A approaching", time: "1w ago" },
-  ];
-
-  const handleQuickAction = (id) => alert(`Clicked: ${id}`);
-
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors flex flex-col">
+    <div className="flex flex-col min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
       <Navbar />
 
-      <div className="flex flex-1 pt-4 px-4 md:px-8 dashboard-top">
-        {/* TOP HEADER */}
-<div className="flex items-center justify-between mb-8">
+      <div className="flex-grow px-6 mt-20 max-w-5xl mx-auto">
 
-  {/* LEFT: Greeting */}
-  <div>
-    <h1 className="text-2xl md:text-3xl font-bold tracking-tight">
-      Welcome back,{" "}
-      <span className="text-blue-600 dark:text-blue-400">
-        {profile.name?.split(" ")[0]}
-      </span>
-    </h1>
+        <h1 className="text-4xl font-bold text-blue-600 dark:text-blue-400 mb-10 text-center">
+          Your Dashboard
+        </h1>
 
-    <p className="text-gray-600 dark:text-gray-300 text-sm mt-1">
-      Your guidance journey:{" "}
-      <span className="font-medium">{profile.profileCompletion}% complete</span>
-    </p>
-  </div>
+        {loading ? (
+          <div className="text-center text-blue-600 text-lg">
+            Loading profile...
+          </div>
+        ) : profile ? (
+          <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg">
 
-  {/* RIGHT: Notifications + Mini Profile */}
-  <div className="flex items-center gap-5">
+            {/* Holland Code */}
+            <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">
+              Holland Code: {profile.holland_code}
+            </h2>
 
-    {/* Notification Bell */}
-    <div className="relative">
-      <button className="p-2 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition">
-        <FiBell size={18} />
-      </button>
+            {/* Explanation */}
+            <p className="whitespace-pre-line text-gray-700 dark:text-gray-300 mb-8">
+              {profile.explanation}
+            </p>
 
-      {/* unread count */}
-      <span className="absolute -top-1 -right-1 bg-red-500 text-white text-[10px] rounded-full px-1.5 py-0.5">
-        3
-      </span>
-    </div>
+            {/* Top Careers */}
+            <div className="mb-10">
+              <h3 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-100">
+                Recommended Careers
+              </h3>
 
-    {/* MINI PROFILE */}
-    <div className="flex items-center gap-3 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-full px-3 py-1">
-      <img
-        src={profile.avatar}
-        alt="avatar"
-        className="w-9 h-9 rounded-full object-cover"
-      />
+              <div className="space-y-3">
+                {profile.top_careers.map((career, index) => (
+                  <div
+                    key={index}
+                    className="p-4 rounded-lg bg-blue-50 dark:bg-gray-700 flex justify-between items-center"
+                  >
+                    <span className="font-medium text-gray-800 dark:text-gray-100">
+                      {career.career}
+                    </span>
+                    <span className="text-blue-600 font-semibold">
+                      {(career.match_score * 100).toFixed(1)}%
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
 
-      <div className="leading-tight">
-        <p className="text-sm font-medium">{profile.name}</p>
-        <p className="text-[11px] text-gray-500 dark:text-gray-400">
-          {profile.class} • {profile.location}
-        </p>
+            {/* Scores */}
+            <div>
+              <h3 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-100">
+                RIASEC Scores
+              </h3>
+
+              <div className="grid grid-cols-3 gap-4">
+                {Object.entries(profile.scores).map(([key, value]) => (
+                  <div
+                    key={key}
+                    className="p-4 bg-gray-100 dark:bg-gray-700 rounded-lg text-center"
+                  >
+                    <p className="text-lg font-bold text-blue-600">{key}</p>
+                    <p className="text-gray-800 dark:text-gray-100">
+                      {(value * 100).toFixed(1)}%
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div className="text-center text-gray-600 dark:text-gray-300">
+            <p className="mb-4 text-lg">
+              You haven't taken the RIASEC assessment yet.
+            </p>
+            <a
+              href="/assessment/riasec"
+              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            >
+              Take Assessment
+            </a>
+          </div>
+        )}
       </div>
-    </div>
 
-  </div>
-</div>
-
-      </div>
+      <Footer />
     </div>
   );
 }
-
-
-

@@ -18,6 +18,17 @@ export default function AssessmentHub() {
         { id: 3, name: "Aptitude Evaluation", route: "/assessment/aptitude" },
       ],
     },
+    {
+      id: "academic",
+      title: "Academic Assessment",
+      description:
+        "Evaluate your interests, personality traits, and aptitude using structured scientific assessments.",
+      quizzes: [
+        { id: 1, name: "Science Assessment", route: "/assessment/science" },
+        { id: 2, name: "Mathematical Assessment", route: "/assessment/maths" },
+        { id: 3, name: "Social Sciences", route: "/assessment/social" },
+      ],
+    }
   ];
 
   return (
@@ -29,7 +40,7 @@ export default function AssessmentHub() {
           {domains.map((domain) => (
             <div
               key={domain.id}
-              className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 mb-10"
+              className="button-container bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 mb-10"
             >
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-100 mb-4">
                 {domain.title}
@@ -39,7 +50,7 @@ export default function AssessmentHub() {
                 {domain.description}
               </p>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="assess-dom grid grid-cols-1 md:grid-cols-3 gap-6">
                 {domain.quizzes.map((quiz) => (
                   <div
                     key={quiz.id}
