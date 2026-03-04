@@ -1,0 +1,2721 @@
+[
+    {
+        "question": "A batsman scored 110 runs which included 3 boundaries and 8 sixes. What percent of his total score did he make by running between the wickets?",
+        "options": {
+            "A": "45%",
+            "B": "45\t5\t%",
+            "C": "11",
+            "D": "54\t6\t%"
+        },
+        "answer": "B",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "Two students appeared at an examination. One of them secured 9 marks more than the other and his marks was 56% of the sum of their marks. The marks obtained by them are:",
+        "options": {
+            "A": "39, 30",
+            "B": "41, 32",
+            "C": "42, 33",
+            "D": "43, 34"
+        },
+        "answer": "C",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "A fruit seller had some apples. He sells 40% apples and still has 420 apples. Originally, he had:",
+        "options": {
+            "A": "588 apples",
+            "B": "600 apples",
+            "C": "672 apples",
+            "D": "700 apples"
+        },
+        "answer": "D",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "What percentage of numbers from 1 to 70 have 1 or 9 in the unit's digit?",
+        "options": {
+            "A": "1",
+            "B": "14",
+            "C": "20",
+            "D": "21"
+        },
+        "answer": "C",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "If A = x% of y and B = y% of x, then which of the following is true?",
+        "options": {
+            "A": "A is smaller than B.",
+            "B": "A is greater than B",
+            "C": "Relationship between A and B cannot be determined.",
+            "D": "If x is smaller than y, then A is greater than B.",
+            "E": "None of these"
+        },
+        "answer": "E",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "If 20% of a = b, then b% of 20 is the same as:",
+        "options": {
+            "A": "4% of a",
+            "B": "5% of a",
+            "C": "20% of a",
+            "D": "None of these"
+        },
+        "answer": "A",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "In a certain school, 20% of students are below 8 years of age. The number of students above 8 years of age is  of the number of students of 8 years of age which is 48. What is the total number of students in the school?",
+        "options": {
+            "A": "72",
+            "B": "80",
+            "C": "120",
+            "D": "150"
+        },
+        "answer": "",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "Two numbers A and B are such that the sum of 5% of A and 4% of B is two-third of the sum of 6% of A and 8% of B. Find the ratio of A : B.",
+        "options": {
+            "A": "2 : 3",
+            "B": "1 : 1",
+            "C": "3 : 4",
+            "D": "4 : 3"
+        },
+        "answer": "D",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "In an election between two candidates, one got 55% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 7500, the number of valid votes that the other candidate got, was:",
+        "options": {
+            "A": "2700",
+            "B": "2900",
+            "C": "3000",
+            "D": "3100"
+        },
+        "answer": "",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Three candidates contested an election and received 1136, 7636 and 11628 votes respectively. What percentage of the total votes did the winning candidate get?",
+        "options": {
+            "A": "57%",
+            "B": "60%",
+            "C": "65%",
+            "D": "90%"
+        },
+        "answer": "A",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "Two tailors X and Y are paid a total of Rs. 550 per week by their employer. If X is paid 120 percent of the sum paid to Y, how much is Y paid per week?",
+        "options": {
+            "A": "Rs. 200",
+            "B": "Rs. 250",
+            "C": "Rs. 300",
+            "D": "None of these"
+        },
+        "answer": "B",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "Gauri went to the stationers and bought things worth Rs. 25, out of which 30 paise went on sales tax on taxable purchases. If the tax rate was 6%, then what was the cost of the tax free items?",
+        "options": {
+            "A": "Rs. 15",
+            "B": "Rs. 15.70",
+            "C": "Rs. 19.70",
+            "D": "Rs. 20"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "Rajeev buys good worth Rs. 6650. He gets a rebate of 6% on it. After getting the rebate, he pays sales tax @ 10%. Find the amount he will have to pay for the goods.",
+        "options": {
+            "A": "Rs. 6876.10",
+            "B": "Rs. 6999.20",
+            "C": "Rs. 6654",
+            "D": "Rs. 7000"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "The population of a town increased from 1,75,000 to 2,62,500 in a decade. The average percent increase of population per year is:",
+        "options": {
+            "A": "4.37%",
+            "B": "5%",
+            "C": "6%",
+            "D": "8.75%"
+        },
+        "answer": "B",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A sum of money at simple interest amounts to Rs. 815 in 3 years and to Rs. 854 in 4 years. The sum is:",
+        "options": {
+            "A": "Rs. 650",
+            "B": "Rs. 690",
+            "C": "Rs. 698",
+            "D": "Rs. 700"
+        },
+        "answer": "C",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B?",
+        "options": {
+            "A": "Rs. 6400",
+            "B": "Rs. 6500",
+            "C": "Rs. 7200",
+            "D": "Rs. 7500"
+        },
+        "answer": "A",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A sum fetched a total simple interest of Rs. 4016.25 at the rate of 9 p.c.p.a. in 5 years. What is the sum?",
+        "options": {
+            "A": "Rs. 4462.50",
+            "B": "Rs. 8032.50",
+            "C": "Rs. 8900",
+            "D": "Rs. 8925"
+        },
+        "answer": "D",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "How much time will it take for an amount of Rs. 450 to yield Rs. 81 as interest at 4.5% per annum of simple interest?",
+        "options": {
+            "A": "3.5 years",
+            "B": "4 years",
+            "C": "4.5 years",
+            "D": "5 years"
+        },
+        "answer": "B",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "Reena took a loan of Rs. 1200 with simple interest for as many years as the rate of interest. If she paid Rs. 432 as interest at the end of the loan period, what was the rate of interest?",
+        "options": {
+            "A": "3.6",
+            "B": "6",
+            "C": "18",
+            "D": "Cannot be determined"
+        },
+        "answer": "B",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A sum of Rs. 12,500 amounts to Rs. 15,500 in 4 years at the rate of simple interest. What is the rate of interest?",
+        "options": {
+            "A": "3%",
+            "B": "4%",
+            "C": "5%",
+            "D": "6%"
+        },
+        "answer": "D",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "An automobile financier claims to be lending money at simple interest, but he includes the interest every six months for calculating the principal. If he is charging an interest of 10%, the effective rate of interest becomes:",
+        "options": {
+            "A": "10%",
+            "B": "10.25%",
+            "C": "10.5%",
+            "D": "None of these"
+        },
+        "answer": "B",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A lent Rs. 5000 to B for 2 years and Rs. 3000 to C for 4 years on simple interest at the same rate of interest and received Rs. 2200 in all from both of them as interest. The rate of interest per annum is:",
+        "options": {
+            "A": "5%",
+            "B": "7%",
+            "C": "7\t1\t%",
+            "D": "10%"
+        },
+        "answer": "D",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A sum of Rs. 725 is lent in the beginning of a year at a certain rate of interest. After 8 months, a sum of Rs. 362.50 more is lent but at the rate twice the former. At the end of the year, Rs. 33.50 is earned as interest from both the loans. What was the original rate of interest?",
+        "options": {
+            "A": "3.6%",
+            "B": "4.5%",
+            "C": "5%",
+            "D": "6%"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "A man took loan from a bank at the rate of 12% p.a. simple interest. After 3 years he had to pay Rs. 5400 interest only for the period. The principal amount borrowed by him was:",
+        "options": {
+            "A": "Rs. 2000",
+            "B": "Rs. 10,000",
+            "C": "Rs. 15,000",
+            "D": "Rs. 20,000"
+        },
+        "answer": "C",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A sum of money amounts to Rs. 9800 after 5 years and Rs. 12005 after 8 years at the same rate of simple interest. The rate of interest per annum is:",
+        "options": {
+            "A": "5%",
+            "B": "8%",
+            "C": "12%",
+            "D": "15%"
+        },
+        "answer": "C",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "What will be the ratio of simple interest earned by certain amount at the same rate of interest for 6 years and that for 9 years?",
+        "options": {
+            "A": "1 : 3",
+            "B": "1 : 4",
+            "C": "2 : 3",
+            "D": "Data inadequate"
+        },
+        "answer": "C",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A certain amount earns simple interest of Rs. 1750 after 7 years. Had the interest been 2% more, how much more interest would it have earned?",
+        "options": {
+            "A": "Rs. 35",
+            "B": "Rs. 245",
+            "C": "Rs. 350",
+            "D": "Cannot be determined"
+        },
+        "answer": "D",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A person borrows Rs. 5000 for 2 years at 4% p.a. simple interest. He immediately lends it to another person at 6% p.a for 2 years. Find his gain in the transaction per year.",
+        "options": {
+            "A": "Rs. 112.50",
+            "B": "Rs. 125",
+            "C": "Rs. 225",
+            "D": "Rs. 167.50"
+        },
+        "answer": "B",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "In the first 10 overs of a cricket game, the run rate was only 3.2. What should be the run rate in the remaining 40 overs to reach the target of 282 runs?",
+        "options": {
+            "A": "6.25",
+            "B": "6.5",
+            "C": "6.75",
+            "D": "7"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "A family consists of two grandparents, two parents and three grandchildren. The average age of the grandparents is 67 years, that of the parents is 35 years and that of the grandchildren is 6 years. What is the average age of the family?",
+        "options": {
+            "A": "28 \t4\tyears",
+            "B": "7",
+            "C": "31 \t5\tyears",
+            "D": "7"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "A grocer has a sale of Rs. 6435, Rs. 6927, Rs. 6855, Rs. 7230 and Rs. 6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Rs. 6500?",
+        "options": {
+            "A": "Rs. 4991",
+            "B": "Rs. 5991",
+            "C": "Rs. 6001",
+            "D": "Rs. 6991"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "The average of 20 numbers is zero. Of them, at the most, how many may be greater than zero?",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "10",
+            "D": "19"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "The average weight of 8 person's increases by 2.5 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person?",
+        "options": {
+            "A": "76 kg",
+            "B": "76.5 kg",
+            "C": "85 kg",
+            "D": "Data inadequate"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "The captain of a cricket team of 11 members is 26 years old and the wicket keeper is 3 years older. If the ages of these two are excluded, the average age of the remaining players is one year less than the average age of the whole team. What is the average age of the team?",
+        "options": {
+            "A": "23 years",
+            "B": "24 years",
+            "C": "25 years",
+            "D": "None of these"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "The average monthly income of P and Q is Rs. 5050. The average monthly income of Q and R is Rs. 6250 and the average monthly income of P and R is Rs. 5200. The monthly income of P is:",
+        "options": {
+            "A": "3500",
+            "B": "4000",
+            "C": "4050",
+            "D": "5000"
+        },
+        "answer": "B",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "The average age of husband, wife and their child 3 years ago was 27 years and that of wife and the child 5 years ago was 20 years. The present age of the husband is:",
+        "options": {
+            "A": "35 years",
+            "B": "40 years",
+            "C": "50 years",
+            "D": "None of these"
+        },
+        "answer": "B",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "A car owner buys petrol at Rs.7.50, Rs. 8 and Rs. 8.50 per litre for three successive years. What approximately is the average cost per litre of petrol if he spends Rs. 4000 each year?",
+        "options": {
+            "A": "Rs. 7.98",
+            "B": "Rs. 8",
+            "C": "Rs. 8.50",
+            "D": "Rs. 9"
+        },
+        "answer": "",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "In Arun's opinion, his weight is greater than 65 kg but less than 72 kg. His brother does not agree with Arun and he thinks that Arun's weight is greater than 60 kg but less than 70 kg. His mother's view is that his weight cannot be greater than 68 kg. If all are them are correct in their estimation, what is the average of different probable weights of Arun?",
+        "options": {
+            "A": "67 kg.",
+            "B": "68 kg.",
+            "C": "69 kg.",
+            "D": "Data inadequate"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "The average weight of A, B and C is 45 kg. If the average weight of A and B be 40 kg and that of B and C be 43 kg, then the weight of B is:",
+        "options": {
+            "A": "17 kg",
+            "B": "20 kg",
+            "C": "26 kg",
+            "D": "31 kg"
+        },
+        "answer": "D",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "The average weight of 16 boys in a class is 50.25 kg and that of the remaining 8 boys is 45.15 kg. Find the average weights of all the boys in the class.",
+        "options": {
+            "A": "47.55 kg",
+            "B": "48 kg",
+            "C": "48.55 kg",
+            "D": "49.25 kg"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "A library has an average of 510 visitors on Sundays and 240 on other days. The average number of visitors per day in a month of 30 days beginning with a Sunday is:",
+        "options": {
+            "A": "250",
+            "B": "276",
+            "C": "280",
+            "D": "285"
+        },
+        "answer": "D",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "If the average marks of three batches of 55, 60 and 45 students respectively is 50, 55, 60, then the average marks of all the students is:",
+        "options": {
+            "A": "53.33",
+            "B": "54.68",
+            "C": "55",
+            "D": "None of these"
+        },
+        "answer": "B",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "A pupil's marks were wrongly entered as 83 instead of 63. Due to that the average marks for the class got increased by half (1/2). The number of pupils in the class is:",
+        "options": {
+            "A": "10",
+            "B": "20",
+            "C": "40",
+            "D": "73"
+        },
+        "answer": "C",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Which one of the following is not a prime number?",
+        "options": {
+            "A": "31",
+            "B": "61",
+            "C": "71",
+            "D": "91"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "(112 x 54) = ?",
+        "options": {
+            "A": "67000",
+            "B": "70000",
+            "C": "76500",
+            "D": "77200"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "What least number must be added to 1056, so that the sum is completely divisible by 23 ?",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "18",
+            "D": "21"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "1397 x 1397 = ?",
+        "options": {
+            "A": "1951609",
+            "B": "1981709",
+            "C": "18362619",
+            "D": "2031719"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "How many of the following numbers are divisible by 132 ?, 264, 396, 462, 792, 968, 2178, 5184, 6336",
+        "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "(935421 x 625) = ?",
+        "options": {
+            "A": "575648125",
+            "B": "584638125",
+            "C": "584649125",
+            "D": "585628125"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "The largest 4 digit number exactly divisible by 88 is:",
+        "options": {
+            "A": "9944",
+            "B": "9768",
+            "C": "9988",
+            "D": "8888"
+        },
+        "answer": "A",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Which of the following is a prime number ?",
+        "options": {
+            "A": "33",
+            "B": "81",
+            "C": "93",
+            "D": "97"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "What is the unit digit in {(6374)1793 x (625)317 x (341491)}?",
+        "options": {
+            "A": "0",
+            "B": "2",
+            "C": "3",
+            "D": "5"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "5358 x 51 = ?",
+        "options": {
+            "A": "273258",
+            "B": "273268",
+            "C": "273348",
+            "D": "273358"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "The sum of first five prime numbers is:",
+        "options": {
+            "A": "11",
+            "B": "18",
+            "C": "26",
+            "D": "28"
+        },
+        "answer": "D",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "The difference of two numbers is 1365. On dividing the larger number by the smaller, we get 6 as quotient and the 15 as remainder. What is the smaller number ?",
+        "options": {
+            "A": "240",
+            "B": "270",
+            "C": "295",
+            "D": "360"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "(12)3 x 64 ÷ 432 = ?",
+        "options": {
+            "A": "5184",
+            "B": "5060",
+            "C": "5148",
+            "D": "5084"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "72519 x 9999 = ?",
+        "options": {
+            "A": "725117481",
+            "B": "674217481",
+            "C": "685126481",
+            "D": "696217481"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "If the number 517*324 is completely divisible by 3, then the smallest whole number in the place of * will be:",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "None of these"
+        },
+        "answer": "C",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "The smallest 3 digit prime number is:",
+        "options": {
+            "A": "101",
+            "B": "103",
+            "C": "109",
+            "D": "113"
+        },
+        "answer": "A",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Which one of the following numbers is exactly divisible by 11?",
+        "options": {
+            "A": "235641",
+            "B": "245642",
+            "C": "315624",
+            "D": "415624"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "(?) - 19657 - 33994 = 9999",
+        "options": {
+            "A": "63650",
+            "B": "53760",
+            "C": "59640",
+            "D": "61560"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "The sum of first 45 natural numbers is:",
+        "options": {
+            "A": "1035",
+            "B": "1280",
+            "C": "2070",
+            "D": "2140"
+        },
+        "answer": "A",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Which of the following number is divisible by 24 ?",
+        "options": {
+            "A": "35718",
+            "B": "63810",
+            "C": "537804",
+            "D": "3125736"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "(?) + 3699 + 1985 - 2047 = 31111",
+        "options": {
+            "A": "34748",
+            "B": "27474",
+            "C": "30154",
+            "D": "27574"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "If the number 481 * 673 is completely divisible by 9, then the smallest whole number in place of * will be:",
+        "options": {
+            "A": "2",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+        },
+        "answer": "D",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "The difference between the local value and the face value of 7 in the numeral 32675149 is",
+        "options": {
+            "A": "75142",
+            "B": "64851",
+            "C": "5149",
+            "D": "69993"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "On dividing a number by 56, we get 29 as remainder. On dividing the same number by 8, what will be the remainder ?",
+        "options": {
+            "A": "4",
+            "B": "5",
+            "C": "6",
+            "D": "7"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "If n is a natural number, then (6n2 + 6n) is always divisible by:",
+        "options": {
+            "A": "6 only",
+            "B": "6 and 12 both",
+            "C": "12 only",
+            "D": "by 18 only"
+        },
+        "answer": "B",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "107 x 107 + 93 x 93 = ?",
+        "options": {
+            "A": "19578",
+            "B": "19418",
+            "C": "20098",
+            "D": "21908"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "What will be remainder when (6767 + 67) is divided by 68 ?",
+        "options": {
+            "A": "1",
+            "B": "63",
+            "C": "66",
+            "D": "67"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "On dividing a number by 5, we get 3 as remainder. What will the remainder when the square of the this number is divided by 5 ?",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "4"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "How many 3-digit numbers are completely divisible 6 ?",
+        "options": {
+            "A": "149",
+            "B": "150",
+            "C": "151",
+            "D": "166"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "How many natural numbers are there between 23 and 100 which are exactly divisible by 6 ?",
+        "options": {
+            "A": "8",
+            "B": "11",
+            "C": "12",
+            "D": "13"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "How many 3 digit numbers are divisible by 6 in all ?",
+        "options": {
+            "A": "149",
+            "B": "150",
+            "C": "151",
+            "D": "166"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "A 3-digit number 4a3 is added to another 3-digit number 984 to give a 4-digit number 13b7, which is divisible by 11. Then, (a + b) = ?",
+        "options": {
+            "A": "10",
+            "B": "11",
+            "C": "12",
+            "D": "15"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "8597 - ? = 7429 - 4358",
+        "options": {
+            "A": "5426",
+            "B": "5706",
+            "C": "5526",
+            "D": "5476"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "(12345679 x 72) = ?",
+        "options": {
+            "A": "88888888",
+            "B": "888888888",
+            "C": "898989898",
+            "D": "9999999998"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "On dividing a number by 357, we get 39 as remainder. On dividing the same number 17, what will be the remainder ?",
+        "options": {
+            "A": "0",
+            "B": "3",
+            "C": "5",
+            "D": "11"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "If the product 4864 x 9 P 2 is divisible by 12, then the value of P is:",
+        "options": {
+            "A": "2",
+            "B": "5",
+            "C": "6",
+            "D": "8"
+        },
+        "answer": "",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "-84 x 29 + 365 = ?",
+        "options": {
+            "A": "2436",
+            "B": "2801",
+            "C": "-2801",
+            "D": "-2071"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "A number when divided by 296 leaves 75 as remainder. When the same number is divided by 37, the remainder will be:",
+        "options": {
+            "A": "1",
+            "B": "2",
+            "C": "8",
+            "D": "11"
+        },
+        "answer": "A",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "In dividing a number by 585, a student employed the method of short division. He divided the number successively by 5, 9 and 13 (factors 585) and got the remainders 4, 8, 12 respectively. If he had divided the number by 585, the remainder would have been",
+        "options": {
+            "A": "24",
+            "B": "144",
+            "C": "292",
+            "D": "584"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "In a division sum, the divisor is 10 times the quotient and 5 times the remainder. If the remainder is 46, what is the dividend ?",
+        "options": {
+            "A": "4236",
+            "B": "4306",
+            "C": "4336",
+            "D": "5336"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "What smallest number should be added to 4456 so that the sum is completely divisible by 6 ?",
+        "options": {
+            "A": "4",
+            "B": "3",
+            "C": "2",
+            "D": "1"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "What least number must be subtracted from 13601, so that the remainder is divisible by 87 ?",
+        "options": {
+            "A": "23",
+            "B": "31",
+            "C": "29",
+            "D": "37"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:",
+        "options": {
+            "A": "15",
+            "B": "16",
+            "C": "18",
+            "D": "25"
+        },
+        "answer": "B",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "If selling price is doubled, the profit triples. Find the profit percent.",
+        "options": {
+            "A": "66\t2",
+            "B": "3",
+            "C": "100",
+            "D": "105\t1"
+        },
+        "answer": "C",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "In a certain store, the profit is 320% of the cost. If the cost increases by 25% but the selling price remains constant, approximately what percentage of the selling price is the profit?",
+        "options": {
+            "A": "30%",
+            "B": "70%",
+            "C": "100%",
+            "D": "250%"
+        },
+        "answer": "B",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A vendor bought toffees at 6 for a rupee. How many for a rupee must he sell to gain 20%?",
+        "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "The percentage profit earned by selling an article for Rs. 1920 is equal to the percentage loss incurred by selling the same article for Rs. 1280. At what price should the article be sold to make 25% profit?",
+        "options": {
+            "A": "Rs. 2000",
+            "B": "Rs. 2200",
+            "C": "Rs. 2400",
+            "D": "Data inadequate"
+        },
+        "answer": "A",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A shopkeeper expects a gain of 22.5% on his cost price. If in a week, his sale was of Rs. 392, what was his profit?",
+        "options": {
+            "A": "Rs. 18.20",
+            "B": "Rs. 70",
+            "C": "Rs. 72",
+            "D": "Rs. 88.25"
+        },
+        "answer": "C",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A man buys a cycle for Rs. 1400 and sells it at a loss of 15%. What is the selling price of the cycle?",
+        "options": {
+            "A": "Rs. 1090",
+            "B": "Rs. 1160",
+            "C": "Rs. 1190",
+            "D": "Rs. 1202"
+        },
+        "answer": "C",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "Sam purchased 20 dozens of toys at the rate of Rs. 375 per dozen. He sold each one of them at the rate of Rs. 33. What was his percentage profit?",
+        "options": {
+            "A": "3.5",
+            "B": "4.5",
+            "C": "5.6",
+            "D": "6.5"
+        },
+        "answer": "C",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "On selling 17 balls at Rs. 720, there is a loss equal to the cost price of 5 balls. The cost price of a ball is:",
+        "options": {
+            "A": "Rs. 45",
+            "B": "Rs. 50",
+            "C": "Rs. 55",
+            "D": "Rs. 60"
+        },
+        "answer": "D",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "When a plot is sold for Rs. 18,700, the owner loses 15%. At what price must that plot be sold in order to gain 15%?",
+        "options": {
+            "A": "Rs. 21,000",
+            "B": "Rs. 22,500",
+            "C": "Rs. 25,300",
+            "D": "Rs. 25,800"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "A shopkeeper sells one transistor for Rs. 840 at a gain of 20% and another for Rs. 960 at a loss of 4%. His total gain or loss percent is:",
+        "options": {
+            "A": "5\t15\t% loss",
+            "B": "17",
+            "C": "5\t15\t% gain",
+            "D": "17"
+        },
+        "answer": "C",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A trader mixes 26 kg of rice at Rs. 20 per kg with 30 kg of rice of other variety at Rs. 36 per kg and sells the mixture at Rs. 30 per kg. His profit percent is:",
+        "options": {
+            "A": "No profit, no loss",
+            "B": "5%",
+            "C": "8%",
+            "D": "10%"
+        },
+        "answer": "A",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A person crosses a 600 m long street in 5 minutes. What is his speed in km per hour?",
+        "options": {
+            "A": "3.6",
+            "B": "7.2",
+            "C": "8.4",
+            "D": "10"
+        },
+        "answer": "B",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "An aeroplane covers a certain distance at a speed of 240 kmph in 5 hours. To cover the same distance in 1 hours, it must travel at a speed of:",
+        "options": {
+            "A": "300 kmph",
+            "B": "360 kmph",
+            "C": "600 kmph",
+            "D": "720 kmph"
+        },
+        "answer": "D",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "If a person walks at 14 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance travelled by him is:",
+        "options": {
+            "A": "50 km",
+            "B": "56 km",
+            "C": "70 km",
+            "D": "80 km"
+        },
+        "answer": "A",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A train can travel 50% faster than a car. Both start from point A at the same time and reach point B 75 kms away from A at the same time. On the way, however, the train lost about 12.5 minutes while stopping at the stations. The speed of the car is:",
+        "options": {
+            "A": "100 kmph",
+            "B": "110 kmph",
+            "C": "120 kmph",
+            "D": "130 kmph"
+        },
+        "answer": "C",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "Excluding stoppages, the speed of a bus is 54 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?",
+        "options": {
+            "A": "9",
+            "B": "10",
+            "C": "12",
+            "D": "20"
+        },
+        "answer": "B",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "In a flight of 600 km, an aircraft was slowed down due to bad weather. Its average speed for the trip was reduced by 200 km/hr and the time of flight increased by 30 minutes. The duration of the flight is:",
+        "options": {
+            "A": "1 hour",
+            "B": "2 hours",
+            "C": "3 hours",
+            "D": "4 hours"
+        },
+        "answer": "A",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A man complete a journey in 10 hours. He travels first half of the journey at the rate of 21 km/hr and second half at the rate of 24 km/hr. Find the total journey in km.",
+        "options": {
+            "A": "220 km",
+            "B": "224 km",
+            "C": "230 km",
+            "D": "234 km"
+        },
+        "answer": "B",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "The ratio between the speeds of two trains is 7 : 8. If the second train runs 400 km in 4 hours, then the speed of the first train is:",
+        "options": {
+            "A": "70 km/hr",
+            "B": "75 km/hr",
+            "C": "84 km/hr",
+            "D": "87.5 km/hr"
+        },
+        "answer": "D",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A man on tour travels first 160 km at 64 km/hr and the next 160 km at 80 km/hr. The average speed for the first 320 km of the tour is:",
+        "options": {
+            "A": "35.55 km/hr",
+            "B": "36 km/hr",
+            "C": "71.11 km/hr",
+            "D": "71 km/hr"
+        },
+        "answer": "C",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A car travelling with  of its actual speed covers 42 km in 1 hr 40 min 48 sec. Find the actual speed of the car.",
+        "options": {
+            "A": "17\t6\tkm/hr",
+            "B": "7",
+            "C": "25 km/hr",
+            "D": "30 km/hr"
+        },
+        "answer": "C",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "In covering a distance of 30 km, Abhay takes 2 hours more than Sameer. If Abhay doubles his speed, then he would take 1 hour less than Sameer. Abhay's speed is:",
+        "options": {
+            "A": "5 kmph",
+            "B": "6 kmph",
+            "C": "6.25 kmph",
+            "D": "7.5 kmph"
+        },
+        "answer": "A",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "Robert is travelling on his cycle and has calculated to reach point A at 2 P.M. if he travels at 10 kmph, he will reach there at 12 noon if he travels at 15 kmph. At what speed must he travel to reach A at 1 P.M.?",
+        "options": {
+            "A": "8 kmph",
+            "B": "11 kmph",
+            "C": "12 kmph",
+            "D": "14 kmph"
+        },
+        "answer": "C",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "It takes eight hours for a 600 km journey, if 120 km is done by train and the rest by car. It takes 20 minutes more, if 200 km is done by train and the rest by car. The ratio of the speed of the train to that of the cars is:",
+        "options": {
+            "A": "2 : 3",
+            "B": "3 : 2",
+            "C": "3 : 4",
+            "D": "4 : 3"
+        },
+        "answer": "B",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A farmer travelled a distance of 61 km in 9 hours. He travelled partly on foot @ 4 km/hr and partly on bicycle @ 9 km/hr. The distance travelled on foot is:",
+        "options": {
+            "A": "14 km",
+            "B": "15 km",
+            "C": "16 km",
+            "D": "17 km"
+        },
+        "answer": "C",
+        "topic": "Time and Distance",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "A bank offers 5% compound interest calculated on half-yearly basis. A customer deposits Rs. 1600 each on 1st January and 1st July of a year. At the end of the year, the amount he would have gained by way of interest is:",
+        "options": {
+            "A": "Rs. 120",
+            "B": "Rs. 121",
+            "C": "Rs. 122",
+            "D": "Rs. 123"
+        },
+        "answer": "B",
+        "topic": "Compound Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "The difference between simple and compound interests compounded annually on a certain sum of money for 2 years at 4% per annum is Re. 1. The sum (in Rs.) is:",
+        "options": {
+            "A": "625",
+            "B": "630",
+            "C": "640",
+            "D": "650"
+        },
+        "answer": "A",
+        "topic": "Compound Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "There is 60% increase in an amount in 6 years at simple interest. What will be the compound interest of Rs. 12,000 after 3 years at the same rate?",
+        "options": {
+            "A": "Rs. 2160",
+            "B": "Rs. 3120",
+            "C": "Rs. 3972",
+            "D": "Rs. 6240"
+        },
+        "answer": "C",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "What is the difference between the compound interests on Rs. 5000 for 1 years at 4% per annum compounded yearly and half-yearly?",
+        "options": {
+            "A": "Rs. 2.04",
+            "B": "Rs. 3.06",
+            "C": "Rs. 4.80",
+            "D": "Rs. 8.30"
+        },
+        "answer": "A",
+        "topic": "Compound Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "What will be the compound interest on a sum of Rs. 25,000 after 3 years at the rate of 12 p.c.p.a.?",
+        "options": {
+            "A": "Rs. 9000.30",
+            "B": "Rs. 9720",
+            "C": "Rs. 10123.20",
+            "D": "Rs. 10483.20"
+        },
+        "answer": "C",
+        "topic": "Compound Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "At what rate of compound interest per annum will a sum of Rs. 1200 become Rs. 1348.32 in 2 years?",
+        "options": {
+            "A": "6%",
+            "B": "6.5%",
+            "C": "7%",
+            "D": "7.5%"
+        },
+        "answer": "A",
+        "topic": "Compound Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "The least number of complete years in which a sum of money put out at 20% compound interest will be more than doubled is:",
+        "options": {
+            "A": "3",
+            "B": "4",
+            "C": "5",
+            "D": "6"
+        },
+        "answer": "B",
+        "topic": "Compound Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "Albert invested an amount of Rs. 8000 in a fixed deposit scheme for 2 years at compound interest rate 5 p.c.p.a. How much amount will Albert get on maturity of the fixed deposit?",
+        "options": {
+            "A": "Rs. 8600",
+            "B": "Rs. 8620",
+            "C": "Rs. 8820",
+            "D": "None of these"
+        },
+        "answer": "C",
+        "topic": "Compound Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "The effective annual rate of interest corresponding to a nominal rate of 6% per annum payable half-yearly is:",
+        "options": {
+            "A": "6.06%",
+            "B": "6.07%",
+            "C": "6.08%",
+            "D": "6.09%"
+        },
+        "answer": "D",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Simple interest on a certain sum of money for 3 years at 8% per annum is half the compound interest on Rs. 4000 for 2 years at 10% per annum. The sum placed on simple interest is:",
+        "options": {
+            "A": "Rs. 1550",
+            "B": "Rs. 1650",
+            "C": "Rs. 1750",
+            "D": "Rs. 2000"
+        },
+        "answer": "D",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "If the simple interest on a sum of money for 2 years at 5% per annum is Rs. 50, what is the compound interest on the same at the same rate and for the same time?",
+        "options": {
+            "A": "Rs. 51.25",
+            "B": "Rs. 52",
+            "C": "Rs. 54.25",
+            "D": "Rs. 60"
+        },
+        "answer": "A",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "The difference between simple interest and compound on Rs. 1200 for one year at 10% per annum reckoned half-yearly is:",
+        "options": {
+            "A": "Rs. 2.50",
+            "B": "Rs. 3",
+            "C": "Rs. 3.75",
+            "D": "Rs. 4"
+        },
+        "answer": "B",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "The difference between compound interest and simple interest on an amount of Rs. 15,000 for 2 years is Rs. 96. What is the rate of interest per annum?",
+        "options": {
+            "A": "8",
+            "B": "10",
+            "C": "12",
+            "D": "Cannot be determined"
+        },
+        "answer": "A",
+        "topic": "Simple Interest",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "The compound interest on a certain sum for 2 years at 10% per annum is Rs. 525. The simple interest on the same sum for double the time at half the rate percent per annum is:",
+        "options": {
+            "A": "Rs. 400",
+            "B": "Rs. 500",
+            "C": "Rs. 600",
+            "D": "Rs. 800"
+        },
+        "answer": "B",
+        "topic": "Profit and Loss",
+        "dimension": "Quantitative Aptitude"
+    },
+    {
+        "question": "Look at this series: 2, 1, (1/2), (1/4), ... What number should come next?",
+        "options": {
+            "A": "(1/3)",
+            "B": "(1/8)",
+            "C": "(2/8)",
+            "D": "(1/16)"
+        },
+        "answer": "B",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 7, 10, 8, 11, 9, 12, ... What number should come next?",
+        "options": {
+            "A": "7",
+            "B": "10",
+            "C": "12",
+            "D": "13"
+        },
+        "answer": "B",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 36, 34, 30, 28, 24, ... What number should come next?",
+        "options": {
+            "A": "20",
+            "B": "22",
+            "C": "23",
+            "D": "26"
+        },
+        "answer": "B",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 22, 21, 23, 22, 24, 23, ... What number should come next?",
+        "options": {
+            "A": "22",
+            "B": "24",
+            "C": "25",
+            "D": "26"
+        },
+        "answer": "C",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 53, 53, 40, 40, 27, 27, ... What number should come next?",
+        "options": {
+            "A": "12",
+            "B": "14",
+            "C": "27",
+            "D": "53"
+        },
+        "answer": "B",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 21, 9, 21, 11, 21, 13, 21, ... What number should come next?",
+        "options": {
+            "A": "14",
+            "B": "15",
+            "C": "21",
+            "D": "23"
+        },
+        "answer": "B",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 58, 52, 46, 40, 34, ... What number should come next?",
+        "options": {
+            "A": "26",
+            "B": "28",
+            "C": "30",
+            "D": "32"
+        },
+        "answer": "B",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 3, 4, 7, 8, 11, 12, ... What number should come next?",
+        "options": {
+            "A": "7",
+            "B": "10",
+            "C": "14",
+            "D": "15"
+        },
+        "answer": "D",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 8, 22, 8, 28, 8, ... What number should come next?",
+        "options": {
+            "A": "9",
+            "B": "29",
+            "C": "32",
+            "D": "34"
+        },
+        "answer": "D",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 31, 29, 24, 22, 17, ... What number should come next?",
+        "options": {
+            "A": "15",
+            "B": "14",
+            "C": "13",
+            "D": "12"
+        },
+        "answer": "A",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 1.5, 2.3, 3.1, 3.9, ... What number should come next?",
+        "options": {
+            "A": "4.2",
+            "B": "4.4",
+            "C": "4.7",
+            "D": "5.1"
+        },
+        "answer": "C",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 14, 28, 20, 40, 32, 64, ... What number should come next?",
+        "options": {
+            "A": "52",
+            "B": "56",
+            "C": "96",
+            "D": "128"
+        },
+        "answer": "B",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 2, 4, 6, 8, 10, ... What number should come next?",
+        "options": {
+            "A": "11",
+            "B": "12",
+            "C": "13",
+            "D": "14"
+        },
+        "answer": "B",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 201, 202, 204, 207, ... What number should come next?",
+        "options": {
+            "A": "205",
+            "B": "208",
+            "C": "210",
+            "D": "211"
+        },
+        "answer": "D",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 544, 509, 474, 439, ... What number should come next?",
+        "options": {
+            "A": "404",
+            "B": "414",
+            "C": "420",
+            "D": "445"
+        },
+        "answer": "A",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 80, 10, 70, 15, 60, ... What number should come next?",
+        "options": {
+            "A": "20",
+            "B": "25",
+            "C": "30",
+            "D": "50"
+        },
+        "answer": "A",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 2, 6, 18, 54, ... What number should come next?",
+        "options": {
+            "A": "108",
+            "B": "148",
+            "C": "162",
+            "D": "216"
+        },
+        "answer": "C",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 5.2, 4.8, 4.4, 4, ... What number should come next?",
+        "options": {
+            "A": "3",
+            "B": "3.3",
+            "C": "3.5",
+            "D": "3.6"
+        },
+        "answer": "D",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Look at this series: 8, 6, 9, 23, 87 , ... What number should come next?",
+        "options": {
+            "A": "128",
+            "B": "226",
+            "C": "324",
+            "D": "429"
+        },
+        "answer": "D",
+        "topic": "Number Series",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "parsley",
+            "B": "basil",
+            "C": "dill",
+            "D": "mayonnaise"
+        },
+        "answer": "D",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "inch",
+            "B": "ounce",
+            "C": "centimeter",
+            "D": "yard"
+        },
+        "answer": "B",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "tyre",
+            "B": "steering wheel",
+            "C": "engine",
+            "D": "car"
+        },
+        "answer": "D",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "tulip",
+            "B": "rose",
+            "C": "bud",
+            "D": "daisy"
+        },
+        "answer": "C",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "rye",
+            "B": "sourdough",
+            "C": "pumpernickel",
+            "D": "loaf"
+        },
+        "answer": "D",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "guitar",
+            "B": "flute",
+            "C": "violin",
+            "D": "cello"
+        },
+        "answer": "B",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "dodge",
+            "B": "flee",
+            "C": "duck",
+            "D": "avoid"
+        },
+        "answer": "C",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "branch",
+            "B": "dirt",
+            "C": "leaf",
+            "D": "root"
+        },
+        "answer": "B",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "street",
+            "B": "freeway",
+            "C": "interstate",
+            "D": "expressway"
+        },
+        "answer": "A",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "heading",
+            "B": "body",
+            "C": "letter",
+            "D": "closing"
+        },
+        "answer": "C",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "tape",
+            "B": "twine",
+            "C": "cord",
+            "D": "yarn"
+        },
+        "answer": "A",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "leopard",
+            "B": "cougar",
+            "C": "elephant",
+            "D": "lion"
+        },
+        "answer": "C",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "couch",
+            "B": "rug",
+            "C": "table",
+            "D": "chair"
+        },
+        "answer": "B",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "cornea",
+            "B": "retina",
+            "C": "pupil",
+            "D": "vision"
+        },
+        "answer": "D",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "noun",
+            "B": "preposition",
+            "C": "punctuation",
+            "D": "adverb"
+        },
+        "answer": "C",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "book",
+            "B": "index",
+            "C": "glossary",
+            "D": "chapter"
+        },
+        "answer": "A",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "Which word does NOT belong with the others?",
+        "options": {
+            "A": "unimportant",
+            "B": "trivial",
+            "C": "insignificant",
+            "D": "familiar"
+        },
+        "answer": "D",
+        "topic": "Odd One Out",
+        "dimension": "Logical Reasoning"
+    },
+    {
+        "question": "SCD, TEF, UGH, ____, WKL",
+        "options": {
+            "A": "CMN",
+            "B": "UJI",
+            "C": "VIJ",
+            "D": "IJT"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "B2CD, _____, BCD4, B5CD, BC6D",
+        "options": {
+            "A": "B2C2D",
+            "B": "BC3D",
+            "C": "B2C3D",
+            "D": "BCD7"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "FAG, GAF, HAI, IAH, ____",
+        "options": {
+            "A": "JAK",
+            "B": "HAL",
+            "C": "HAK",
+            "D": "JAI"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "ELFA, GLHA, ILJA, _____, MLNA",
+        "options": {
+            "A": "OLPA",
+            "B": "KLMA",
+            "C": "LLMA",
+            "D": "KLLA"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "CMM, EOO, GQQ, _____, KUU",
+        "options": {
+            "A": "GRR",
+            "B": "GSS",
+            "C": "ISS",
+            "D": "ITT"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "ZA5, Y4B, XC6, W3D, _____",
+        "options": {
+            "A": "E7V",
+            "B": "V2E",
+            "C": "VE5",
+            "D": "VE7"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "QPO, NML, KJI, _____, EDC",
+        "options": {
+            "A": "HGF",
+            "B": "CAB",
+            "C": "JKL",
+            "D": "GHI"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "JAK, KBL, LCM, MDN, _____",
+        "options": {
+            "A": "OEP",
+            "B": "NEO",
+            "C": "MEN",
+            "D": "PFQ"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "BCB, DED, FGF, HIH, ___",
+        "options": {
+            "A": "JKJ",
+            "B": "HJH",
+            "C": "IJI",
+            "D": "JHJ"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "P5QR, P4QS, P3QT, _____, P1QV",
+        "options": {
+            "A": "PQW",
+            "B": "PQV2",
+            "C": "P2QU",
+            "D": "PQ3U"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "QAR, RAS, SAT, TAU, _____",
+        "options": {
+            "A": "UAV",
+            "B": "UAT",
+            "C": "TAS",
+            "D": "TAT"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "DEF, DEF2, DE2F2, _____, D2E2F3",
+        "options": {
+            "A": "DEF3",
+            "B": "D3EF3",
+            "C": "D2E3F",
+            "D": "D2E2F2"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "Odometer is to mileage as compass is to",
+        "options": {
+            "A": "speed",
+            "B": "hiking",
+            "C": "needle",
+            "D": "direction"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "Marathon is to race as hibernation is to",
+        "options": {
+            "A": "winter",
+            "B": "bear",
+            "C": "dream",
+            "D": "sleep"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "Window is to pane as book is to",
+        "options": {
+            "A": "novel",
+            "B": "glass",
+            "C": "cover",
+            "D": "page"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "Cup is to coffee as bowl is to",
+        "options": {
+            "A": "dish",
+            "B": "soup",
+            "C": "spoon",
+            "D": "food"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "Yard is to inch as quart is to",
+        "options": {
+            "A": "gallon",
+            "B": "ounce",
+            "C": "milk",
+            "D": "liquid"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "Elated is to despondent as enlightened is to",
+        "options": {
+            "A": "aware",
+            "B": "ignorant",
+            "C": "miserable",
+            "D": "tolerant"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "Optimist is to cheerful as pessimist is to",
+        "options": {
+            "A": "gloomy",
+            "B": "mean",
+            "C": "petty",
+            "D": "helpful"
+        },
+        "answer": "A",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "Reptile is to lizard as flower is to",
+        "options": {
+            "A": "petal",
+            "B": "stem",
+            "C": "daisy",
+            "D": "alligator"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "Play is to actor as concert is to",
+        "options": {
+            "A": "symphony",
+            "B": "musician",
+            "C": "piano",
+            "D": "percussion"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "Sponge is to porous as rubber is to",
+        "options": {
+            "A": "massive",
+            "B": "solid",
+            "C": "elastic",
+            "D": "inflexible"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "candle lamp floodlight",
+        "options": {
+            "A": "hut cottage ?",
+            "B": "tent",
+            "C": "city",
+            "D": "dwelling"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "daisy flower plant",
+        "options": {
+            "A": "bungalow house ?",
+            "B": "building",
+            "C": "cottage",
+            "D": "apartment"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "palette easel brush",
+        "options": {
+            "A": "textbook lesson plan ?",
+            "B": "artist",
+            "C": "teacher",
+            "D": "report card"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "rule command dictate",
+        "options": {
+            "A": "doze sleep ?",
+            "B": "snore",
+            "C": "govern",
+            "D": "awaken"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "apples fruit supermarket",
+        "options": {
+            "A": "novel book ?",
+            "B": "bookstore",
+            "C": "magazine",
+            "D": "vegetable"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "ant fly bee",
+        "options": {
+            "A": "hamster squirrel ?",
+            "B": "spider",
+            "C": "mouse",
+            "D": "rodent"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "carpenter saw nails",
+        "options": {
+            "A": "pediatrician stethoscope ?",
+            "B": "thermometer",
+            "C": "baby",
+            "D": "doctor"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "tadpole frog amphibian",
+        "options": {
+            "A": "lamb sheep ?",
+            "B": "animal",
+            "C": "wool",
+            "D": "farm"
+        },
+        "answer": "B",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "table wood oak",
+        "options": {
+            "A": "shirt cloth ?",
+            "B": "sewing",
+            "C": "dress",
+            "D": "cotton"
+        },
+        "answer": "D",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "snow mountain ski",
+        "options": {
+            "A": "warmth lake ?",
+            "B": "sand",
+            "C": "swim",
+            "D": "sunburn"
+        },
+        "answer": "C",
+        "topic": "General Aptitude",
+        "dimension": "General"
+    },
+    {
+        "question": "EXPLORE : DISCOVER",
+        "options": {
+            "A": "read : skim",
+            "B": "research : learn",
+            "C": "write : print",
+            "D": "think : relate"
+        },
+        "answer": "B",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "SIAMESE : CAT",
+        "options": {
+            "A": "type : breed",
+            "B": "dog : puppy",
+            "C": "mark : spot",
+            "D": "romaine : lettuce"
+        },
+        "answer": "D",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "FINCH : BIRD",
+        "options": {
+            "A": "frog :toad",
+            "B": "elephant : reptile",
+            "C": "Dalmatian : dog",
+            "D": "collie : marsupial"
+        },
+        "answer": "C",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "PETAL : FLOWER",
+        "options": {
+            "A": "salt : pepper",
+            "B": "tire : bicycle",
+            "C": "base : ball",
+            "D": "sandals : shoes"
+        },
+        "answer": "B",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "COTTON : BALE",
+        "options": {
+            "A": "butter : churn",
+            "B": "wine : ferment",
+            "C": "grain : shock",
+            "D": "curd : cheese"
+        },
+        "answer": "C",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "ELEPHANT : PACHYDERM",
+        "options": {
+            "A": "mantis : rodent",
+            "B": "poodle : feline",
+            "C": "kangaroo : marsupial",
+            "D": "zebra : horse"
+        },
+        "answer": "C",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "PSYCHOLOGIST : NEUROSIS",
+        "options": {
+            "A": "ophthalmologist : cataract",
+            "B": "dermatologist : fracture",
+            "C": "infant : pediatrician",
+            "D": "rash : orthopedist"
+        },
+        "answer": "A",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "PASTORAL : RURAL",
+        "options": {
+            "A": "metropolitan : urban",
+            "B": "harvest : autumn",
+            "C": "agrarian : benevolent",
+            "D": "sleepy : nocturnal"
+        },
+        "answer": "A",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "TAILOR : SUIT",
+        "options": {
+            "A": "scheme : agent",
+            "B": "edit : manuscript",
+            "C": "revise : writer",
+            "D": "mention : opinion"
+        },
+        "answer": "B",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "PEDAL : BICYCLE",
+        "options": {
+            "A": "inch : yardstick",
+            "B": "walk : skip",
+            "C": "tire : automobile",
+            "D": "buckle : belt"
+        },
+        "answer": "C",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "DIVISION : SECTION",
+        "options": {
+            "A": "layer : tier",
+            "B": "tether : bundle",
+            "C": "chapter : verse",
+            "D": "riser : stage"
+        },
+        "answer": "A",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "DEPRESSED : SAD",
+        "options": {
+            "A": "neat : considerate",
+            "B": "towering : cringing",
+            "C": "rapid : plodding",
+            "D": "progressive : regressive"
+        },
+        "answer": "C",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "BRISTLE : BRUSH",
+        "options": {
+            "A": "arm : leg",
+            "B": "stage : curtain",
+            "C": "recline : chair",
+            "D": "key : piano"
+        },
+        "answer": "D",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "RAIN : DRIZZLE",
+        "options": {
+            "A": "swim :dive",
+            "B": "hop : shuffle",
+            "C": "juggle : bounce",
+            "D": "walk : run"
+        },
+        "answer": "D",
+        "topic": "Analogy",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "C",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "B",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "B",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "C",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "C",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "A",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "E",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "B",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "B",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "A",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "A",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "A",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "C",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "E",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "B",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "B",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "C",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    },
+    {
+        "question": "Statements:",
+        "options": {
+            "A": "Statement I is the cause and statement II is its effect",
+            "B": "Statement II is the cause and statement I is its effect",
+            "C": "Both the statements I and II are independent causes",
+            "D": "Both the statements I and II are effects of independent causes",
+            "E": "Both the statements I and II are effects of some common cause"
+        },
+        "answer": "A",
+        "topic": "Cause and Effect",
+        "dimension": "Verbal Reasoning"
+    }
+]

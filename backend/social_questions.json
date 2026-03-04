@@ -1,0 +1,39 @@
+{
+  "History": [
+    {
+      "id": "h1",
+      "text": "Who was the first Mughal emperor?",
+      "options": ["Babur", "Akbar", "Humayun", "Shah Jahan"],
+      "answer": "Babur"
+    }
+  ],
+  "Civics": [
+    {
+      "id": "c1",
+      "text": "How many fundamental rights are in the Indian Constitution?",
+      "options": ["6", "5", "7", "8"],
+      "answer": "6"
+    }
+  ],
+  "Economics": [
+    {
+      "id": "e1",
+      "text": "What does GDP stand for?",
+      "options": [
+        "Gross Domestic Product",
+        "Global Development Plan",
+        "General Domestic Production",
+        "Gross Development Policy"
+      ],
+      "answer": "Gross Domestic Product"
+    }
+  ],
+  "Geography": [
+    {
+      "id": "g1",
+      "text": "Which is the longest river in the world?",
+      "options": ["Nile", "Amazon", "Yangtze", "Mississippi"],
+      "answer": "Nile"
+    }
+  ]
+}

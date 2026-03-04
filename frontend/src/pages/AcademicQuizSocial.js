@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import axios from "axios";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function AcademicQuizScience() {
+export default function AcademicQuizSocial() {
   const [questions, setQuestions] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
   const [answers, setAnswers] = useState({});
@@ -18,13 +18,13 @@ export default function AcademicQuizScience() {
   // ================= FETCH QUESTIONS =================
   useEffect(() => {
     axios
-      .get("http://localhost:5000/academic/questions")
+      .get("http://localhost:5000/social/questions")
       .then((res) => {
         setQuestions(res.data.questions);
         setLoading(false);
       })
       .catch((err) => {
-        console.error("Error fetching academic questions:", err);
+        console.error("Error fetching math questions:", err);
         setLoading(false);
       });
   }, []);
@@ -32,12 +32,12 @@ export default function AcademicQuizScience() {
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900">
-        <p className="text-xl text-blue-600">Loading Academic Quiz...</p>
+        <p className="text-xl text-blue-600">Loading Math Quiz...</p>
       </div>
     );
   }
 
-  // ================= PAGINATION LOGIC =================
+  // ================= PAGINATION =================
   const totalPages = Math.ceil(questions.length / QUESTIONS_PER_PAGE);
 
   const startIndex = currentPage * QUESTIONS_PER_PAGE;
@@ -73,7 +73,7 @@ export default function AcademicQuizScience() {
       setSubmitting(true);
 
       const res = await axios.post(
-        "http://localhost:5000/academic/submit",
+        "http://localhost:5000/social/submit",
         {
           responses: answers,
         }
@@ -89,8 +89,7 @@ export default function AcademicQuizScience() {
     }
   };
 
-  const progress =
-    ((currentPage + 1) / totalPages) * 100;
+  const progress = ((currentPage + 1) / totalPages) * 100;
 
   return (
     <div className="flex flex-col min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
@@ -103,17 +102,17 @@ export default function AcademicQuizScience() {
           <div className="bg-white dark:bg-gray-800 w-full max-w-3xl p-8 rounded-2xl shadow-lg">
 
             <h2 className="text-3xl font-bold text-blue-600 mb-8 text-center">
-              Academic Performance Report
+              Social Sciences Performance Report
             </h2>
 
             <div className="space-y-6">
-              {Object.entries(result.report).map(([subject, data]) => (
+              {Object.entries(result.report).map(([domain, data]) => (
                 <div
-                  key={subject}
+                  key={domain}
                   className="quiz-opts p-6 rounded-xl bg-blue-50 dark:bg-gray-700"
                 >
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100">
-                    {subject}
+                    {domain}
                   </h3>
 
                   <p className="mt-2 text-gray-700 dark:text-gray-300">
@@ -126,6 +125,24 @@ export default function AcademicQuizScience() {
                 </div>
               ))}
             </div>
+
+            {/* Recommendation */}
+            {result.recommendation && (
+              <div className="mt-10 p-6 bg-green-50 dark:bg-gray-700 rounded-xl">
+                <h3 className="text-xl font-semibold text-gray-800 dark:text-gray-100">
+                  Suggested Path
+                </h3>
+
+                <p className="text-green-700 font-medium mt-2">
+                  {result.recommendation.path}
+                </p>
+
+                <p className="text-gray-600 dark:text-gray-300 mt-2">
+                  {result.recommendation.reason}
+                </p>
+              </div>
+            )}
+
           </div>
         ) : (
           <>
@@ -142,7 +159,7 @@ export default function AcademicQuizScience() {
               </p>
             </div>
 
-            {/* Questions Card */}
+            {/* Question Card */}
             <div className="bg-white dark:bg-gray-800 w-full max-w-3xl p-8 rounded-2xl shadow-lg">
 
               <AnimatePresence mode="wait">
@@ -154,8 +171,15 @@ export default function AcademicQuizScience() {
                   transition={{ duration: 0.3 }}
                 >
                   <div className="space-y-8">
+
                     {currentQuestions.map((q, index) => (
                       <div key={q.id}>
+
+                        {/* Domain label */}
+                        <p className="text-sm text-blue-600 font-semibold mb-1">
+                          {q.domain}
+                        </p>
+
                         <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-100 mb-4">
                           {startIndex + index + 1}. {q.text}
                         </h2>
@@ -164,9 +188,7 @@ export default function AcademicQuizScience() {
                           {q.options.map((option, idx) => (
                             <div
                               key={idx}
-                              onClick={() =>
-                                handleSelect(q.id, option)
-                              }
+                              onClick={() => handleSelect(q.id, option)}
                               className={`quiz-opts cursor-pointer p-3 rounded-lg border transition-all duration-200 
                                 ${
                                   answers[q.id] === option
@@ -178,13 +200,15 @@ export default function AcademicQuizScience() {
                             </div>
                           ))}
                         </div>
+
                       </div>
                     ))}
+
                   </div>
                 </motion.div>
               </AnimatePresence>
 
-              {/* Navigation Buttons */}
+              {/* Navigation */}
               <div className="flex justify-between mt-10">
                 <button
                   onClick={prevPage}
@@ -211,9 +235,11 @@ export default function AcademicQuizScience() {
                   </button>
                 )}
               </div>
+
             </div>
           </>
         )}
+
       </div>
 
       <Footer />

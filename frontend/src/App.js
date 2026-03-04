@@ -4,6 +4,9 @@ import Dashboard from "./pages/Dashboard";
 import Assessment from "./pages/Assessment";
 import RiasecQuiz from "./pages/RiasecQuiz";
 import AcademicQuizScience from "./pages/AcademicQuizScience";
+import AcademicQuizMath from "./pages/AcademicQuizMath";
+import AcademicQuizSocial from "./pages/AcademicQuizSocial";
+import AptitudeQuiz from "./pages/AptitudeQuiz";
 function App() {
   return (
     <Router>
@@ -15,6 +18,9 @@ function App() {
           <Route path="/assessment" element={<Assessment />} />
           <Route path="/assessment/riasec" element={<RiasecQuiz />} />
           <Route path="/assessment/science" element={<AcademicQuizScience />} />
+          <Route path="/assessment/maths" element={<AcademicQuizMath />} />
+          <Route path="/assessment/social" element={<AcademicQuizSocial />} />
+          <Route path="/assessment/aptitude" element={<AptitudeQuiz/>} />
         </Routes>
       </div>
     </Router>
