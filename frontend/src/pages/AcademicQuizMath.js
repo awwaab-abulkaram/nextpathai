@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import axios from "axios";
 import { motion, AnimatePresence } from "framer-motion";
+import { getAuth } from "firebase/auth";
 
 export default function AcademicQuizMath() {
   const [questions, setQuestions] = useState([]);
@@ -68,26 +69,38 @@ export default function AcademicQuizMath() {
   };
 
   // ================= SUBMIT =================
-  const handleSubmit = async () => {
-    try {
-      setSubmitting(true);
+const handleSubmit = async () => {
+  try {
+    setSubmitting(true);
 
-      const res = await axios.post(
-        "http://localhost:5000/math/submit",
-        {
-          responses: answers,
-        }
-      );
+    const auth = getAuth();
+    const user = auth.currentUser;
 
-      setResult(res.data);
+    if (!user) {
+      console.error("User not logged in");
       setSubmitting(false);
-      window.scrollTo(0, 0);
-
-    } catch (error) {
-      console.error("Submission error:", error);
-      setSubmitting(false);
+      return;
     }
-  };
+
+    const uid = user.uid;
+
+    const res = await axios.post(
+      "http://localhost:5000/math/submit",
+      {
+        uid: uid,
+        responses: answers
+      }
+    );
+
+    setResult(res.data);
+    window.scrollTo(0, 0);
+
+  } catch (error) {
+    console.error("Submission error:", error);
+  } finally {
+    setSubmitting(false);
+  }
+};
 
   const progress = ((currentPage + 1) / totalPages) * 100;
 

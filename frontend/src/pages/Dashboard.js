@@ -2,49 +2,42 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import axios from "axios";
-import { getAuth } from "firebase/auth";
+import { getAuth, onAuthStateChanged } from "firebase/auth";
 
 export default function Dashboard() {
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  // Load profile on mount
   useEffect(() => {
-    // 1️⃣ Load from localStorage first (offline safe)
-    const stored = localStorage.getItem("riasecResult");
-    if (stored) {
-      setProfile(JSON.parse(stored));
-    }
+    const auth = getAuth();
 
-    // 2️⃣ Fetch from backend (if logged in)
-    const fetchProfile = async () => {
+    const unsubscribe = onAuthStateChanged(auth, async (user) => {
+      console.log("Auth state:", user);
+
+      if (!user) {
+        setLoading(false);
+        return;
+      }
+
       try {
-        const auth = getAuth();
-        const user = auth.currentUser;
+        console.log("Fetching profile for:", user.uid);
 
-        if (user) {
-          const res = await axios.get(
-            `http://localhost:5000/profile/${user.uid}`
-          );
+        const res = await axios.get(
+          `http://localhost:5000/profile/${user.uid}`
+        );
 
-          if (res.data && res.data.riasec) {
-            setProfile(res.data.riasec);
+        console.log("PROFILE RESPONSE:", res.data);
 
-            // Sync localStorage with backend version
-            localStorage.setItem(
-              "riasecResult",
-              JSON.stringify(res.data.riasec)
-            );
-          }
-        }
+        setProfile(res.data);
+
       } catch (error) {
         console.error("Error fetching profile:", error);
       } finally {
         setLoading(false);
       }
-    };
+    });
 
-    fetchProfile();
+    return () => unsubscribe();
   }, []);
 
   return (
@@ -61,74 +54,141 @@ export default function Dashboard() {
           <div className="text-center text-blue-600 text-lg">
             Loading profile...
           </div>
-        ) : profile ? (
-          <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg">
-
-            {/* Holland Code */}
-            <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">
-              Holland Code: {profile.holland_code}
-            </h2>
-
-            {/* Explanation */}
-            <p className="whitespace-pre-line text-gray-700 dark:text-gray-300 mb-8">
-              {profile.explanation}
-            </p>
-
-            {/* Top Careers */}
-            <div className="mb-10">
-              <h3 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-100">
-                Recommended Careers
-              </h3>
-
-              <div className="space-y-3">
-                {profile.top_careers.map((career, index) => (
-                  <div
-                    key={index}
-                    className="p-4 rounded-lg bg-blue-50 dark:bg-gray-700 flex justify-between items-center"
-                  >
-                    <span className="font-medium text-gray-800 dark:text-gray-100">
-                      {career.career}
-                    </span>
-                    <span className="text-blue-600 font-semibold">
-                      {(career.match_score * 100).toFixed(1)}%
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Scores */}
-            <div>
-              <h3 className="text-2xl font-semibold mb-4 text-gray-800 dark:text-gray-100">
-                RIASEC Scores
-              </h3>
-
-              <div className="grid grid-cols-3 gap-4">
-                {Object.entries(profile.scores).map(([key, value]) => (
-                  <div
-                    key={key}
-                    className="p-4 bg-gray-100 dark:bg-gray-700 rounded-lg text-center"
-                  >
-                    <p className="text-lg font-bold text-blue-600">{key}</p>
-                    <p className="text-gray-800 dark:text-gray-100">
-                      {(value * 100).toFixed(1)}%
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </div>
+        ) : !profile || profile.message ? (
+          <div className="text-center text-gray-600 dark:text-gray-300">
+            No assessments completed yet.
           </div>
         ) : (
-          <div className="text-center text-gray-600 dark:text-gray-300">
-            <p className="mb-4 text-lg">
-              You haven't taken the RIASEC assessment yet.
-            </p>
-            <a
-              href="/assessment/riasec"
-              className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
-            >
-              Take Assessment
-            </a>
+          <div className="space-y-10">
+
+            {/* ---------- RIASEC ---------- */}
+
+            {profile.riasec && (
+              <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg">
+
+                <h2 className="text-3xl font-bold text-center text-blue-600 mb-6">
+                  Holland Code: {profile.riasec.holland_code}
+                </h2>
+
+                <p className="whitespace-pre-line text-gray-700 dark:text-gray-300 mb-8">
+                  {profile.riasec.explanation}
+                </p>
+
+                <div className="mb-10">
+                  <h3 className="text-2xl font-semibold mb-4">
+                    Recommended Careers
+                  </h3>
+
+                  <div className="space-y-3">
+                    {profile.riasec.top_careers?.map((career, index) => (
+                      <div
+                        key={index}
+                        className="p-4 rounded-lg bg-blue-50 dark:bg-gray-700 flex justify-between"
+                      >
+                        <span>{career.career}</span>
+                        <span className="text-blue-600 font-semibold">
+                          {(career.match_score * 100).toFixed(1)}%
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-semibold mb-4">
+                    RIASEC Scores
+                  </h3>
+
+                  <div className="grid grid-cols-3 gap-4">
+                    {Object.entries(profile.riasec.scores || {}).map(([key, value]) => (
+                      <div
+                        key={key}
+                        className="p-4 bg-gray-100 dark:bg-gray-700 rounded-lg text-center"
+                      >
+                        <p className="text-lg font-bold text-blue-600">{key}</p>
+                        <p>{(value * 100).toFixed(1)}%</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+              </div>
+            )}
+
+            {/* ---------- MATH ---------- */}
+
+            {profile.academic?.maths && (
+              <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg">
+
+                <h2 className="text-2xl font-bold text-blue-600 mb-6">
+                  Math Assessment
+                </h2>
+
+                {Object.entries(profile.academic.maths.report || {}).map(
+                  ([domain, data]) => (
+                    <div
+                      key={domain}
+                      className="p-4 bg-blue-50 dark:bg-gray-700 rounded-lg mb-3"
+                    >
+                      <p className="font-semibold">{domain}</p>
+                      <p>Score: {(data.score * 100).toFixed(1)}%</p>
+                      <p className="text-blue-600">{data.level}</p>
+                    </div>
+                  )
+                )}
+
+              </div>
+            )}
+
+            {/* ---------- SOCIAL ---------- */}
+
+            {profile.academic?.social && (
+              <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg">
+
+                <h2 className="text-2xl font-bold text-blue-600 mb-6">
+                  Social Science Assessment
+                </h2>
+
+                {Object.entries(profile.academic.social.report || {}).map(
+                  ([domain, data]) => (
+                    <div
+                      key={domain}
+                      className="p-4 bg-green-50 dark:bg-gray-700 rounded-lg mb-3"
+                    >
+                      <p className="font-semibold">{domain}</p>
+                      <p>Score: {(data.score * 100).toFixed(1)}%</p>
+                      <p className="text-green-600">{data.level}</p>
+                    </div>
+                  )
+                )}
+
+              </div>
+            )}
+
+            {/* ---------- STREAM ---------- */}
+
+            {profile.academic?.overall && (
+              <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-lg">
+
+                <h2 className="text-2xl font-bold text-blue-600 mb-6">
+                  Academic Stream Recommendation
+                </h2>
+
+                <div className="p-6 bg-purple-50 dark:bg-gray-700 rounded-lg">
+
+                  <p className="text-xl font-semibold text-purple-700">
+                    {profile.academic.overall.recommendation.stream}
+                  </p>
+
+                  <p className="mt-2">
+                    {profile.academic.overall.recommendation.reason}
+                  </p>
+
+                </div>
+
+              </div>
+            )}
+
           </div>
         )}
       </div>

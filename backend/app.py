@@ -62,33 +62,53 @@ def save_riasec():
 
 @app.route("/profile/<uid>", methods=["GET"])
 def get_profile(uid):
-    user = users.find_one({"uid": uid})
 
-    if not user or "riasec" not in user:
+    user = users.find_one({"uid": uid}, {"_id": 0})  # hide Mongo _id
+
+    if not user:
         return jsonify({"message": "No profile found"}), 404
 
-    return jsonify({
-        "riasec": user["riasec"]
-    })
+    return jsonify(user)
 
 @app.route("/academic/submit", methods=["POST"])
 def submit_academic():
 
     data = request.get_json()
 
-    responses = data.get("responses", {})
+    if not data or "responses" not in data or "uid" not in data:
+        return jsonify({"error": "Invalid input"}), 400
 
+    uid = data["uid"]
+    responses = data["responses"]
+
+    # -------- CALCULATE SCORES --------
     scores = calculate_academic_scores(responses)
 
     report = generate_academic_report(scores)
 
     recommendation = recommend_stream(scores)
 
-    return jsonify({
-        "status": "success",
+    result = {
         "normalized_scores": scores,
         "report": report,
         "recommendation": recommendation
+    }
+
+    # -------- SAVE RESULT TO MONGO --------
+    users.update_one(
+        {"uid": uid},
+        {
+            "$set": {
+                "academic.overall": result
+            }
+        },
+        upsert=True
+    )
+
+    # -------- RETURN RESULT --------
+    return jsonify({
+        "status": "success",
+        **result
     })
 
 @app.route("/academic/questions", methods=["GET"])
@@ -141,22 +161,40 @@ def submit_math_quiz():
 
     data = request.get_json()
 
-    if not data or "responses" not in data:
+    if not data or "responses" not in data or "uid" not in data:
         return jsonify({"error": "Invalid input"}), 400
 
+    uid = data["uid"]
     responses = data["responses"]
 
+    # ---------- CALCULATE SCORES ----------
     scores = calculate_math_scores(responses)
 
     report = generate_math_report(scores)
 
     recommendation = recommend_math_path(scores)
 
-    return jsonify({
-        "status": "success",
+    result = {
         "normalized_scores": scores,
         "report": report,
         "recommendation": recommendation
+    }
+
+    # ---------- SAVE RESULT TO MONGO ----------
+    users.update_one(
+        {"uid": uid},
+        {
+            "$set": {
+                "academic.maths": result
+            }
+        },
+        upsert=True
+    )
+
+    # ---------- RETURN RESULT ----------
+    return jsonify({
+        "status": "success",
+        **result
     })
 
 @app.route("/social/questions", methods=["GET"])
@@ -175,41 +213,63 @@ def submit_social_quiz():
 
     data = request.get_json()
 
-    if not data or "responses" not in data:
+    if not data or "responses" not in data or "uid" not in data:
         return jsonify({"error": "Invalid input"}), 400
 
+    uid = data["uid"]
     responses = data["responses"]
 
+    # -------- CALCULATE RESULTS --------
     scores = calculate_social_scores(responses)
 
     report = generate_social_report(scores)
 
     recommendation = recommend_social_path(scores)
 
-    return jsonify({
-        "status": "success",
+    result = {
         "normalized_scores": scores,
         "report": report,
         "recommendation": recommendation
+    }
+
+    # -------- SAVE RESULT TO MONGO --------
+    users.update_one(
+        {"uid": uid},
+        {
+            "$set": {
+                "academic.social": result
+            }
+        },
+        upsert=True
+    )
+
+    # -------- RETURN RESULT --------
+    return jsonify({
+        "status": "success",
+        **result
     })
 @app.route("/profile/save-aptitude", methods=["POST"])
 def save_aptitude():
 
     data = request.json
-
+    uid = data.get("uid")
     result = data.get("result")
 
-    if not result:
-        return jsonify({"error": "No result provided"}), 400
+    if not uid or not result:
+        return jsonify({"error": "uid and result required"}), 400
 
-    # For now we just store it as a record
-    users.insert_one({
-        "type": "aptitude",
-        "result": result
-    })
+    users.update_one(
+        {"uid": uid},                 # find user document
+        {
+            "$set": {
+                "aptitude": result    # add/update aptitude field
+            }
+        },
+        upsert=True                   # create if not exists
+    )
 
     return jsonify({
-        "message": "Aptitude result saved successfully"
+        "message": "Aptitude saved successfully"
     })
 
 if __name__ == "__main__":

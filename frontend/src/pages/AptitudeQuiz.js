@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import axios from "axios";
 import { motion, AnimatePresence } from "framer-motion";
+import { getAuth } from "firebase/auth";
+
 
 export default function AptitudeQuiz() {
 
@@ -13,7 +15,8 @@ export default function AptitudeQuiz() {
 
   const [result, setResult] = useState(null);
   const [submitting, setSubmitting] = useState(false);
-
+  const auth = getAuth();
+  const user = auth.currentUser;
   // ==============================
   // LOAD SAVED PROGRESS
   // ==============================
@@ -113,47 +116,51 @@ export default function AptitudeQuiz() {
   // ==============================
 
   const handleSubmit = async () => {
+  try {
 
-    try {
+    setSubmitting(true);
 
-      setSubmitting(true);
+    // STEP 1: Calculate aptitude result
+    const res = await axios.post(
+      "http://localhost:5000/aptitude/submit",
+      {
+        answers: answers
+      }
+    );
 
-      const res = await axios.post(
-        "http://localhost:5000/aptitude/submit",
-        {
-          answers: answers
-        }
-      );
+    const aptitudeResult = res.data;
 
-      setResult(res.data);
+    setResult(aptitudeResult);
 
-      // Save result locally
-      localStorage.setItem(
-        "aptitudeResult",
-        JSON.stringify(res.data)
-      );
+    // Save result locally
+    localStorage.setItem(
+      "aptitudeResult",
+      JSON.stringify(aptitudeResult)
+    );
 
-      // Clear saved progress
-      localStorage.removeItem("aptitudeProgress");
+    // Clear saved progress
+    localStorage.removeItem("aptitudeProgress");
 
-      // Send result to backend profile API
+    // STEP 2: Save result to Mongo profile
+    if (user) {
       await axios.post(
         "http://localhost:5000/profile/save-aptitude",
         {
-          result: res.data
+          uid: user.uid,
+          result: aptitudeResult
         }
       );
-
-      setSubmitting(false);
-
-    } catch (error) {
-
-      console.error("Submission error:", error);
-      setSubmitting(false);
-
     }
 
-  };
+    setSubmitting(false);
+
+  } catch (error) {
+
+    console.error("Submission error:", error);
+    setSubmitting(false);
+
+  }
+};
 
   const progress = ((current + 1) / questions.length) * 100;
 
