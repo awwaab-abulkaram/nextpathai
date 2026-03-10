@@ -32,6 +32,11 @@
   padding: 0.7rem;
   margin-bottom: 1rem;
 }
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 @media (min-width: 768px) {
   .how-grid {
     grid-template-columns: repeat(2, 1fr);

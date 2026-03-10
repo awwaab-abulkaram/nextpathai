@@ -7,6 +7,7 @@ import AcademicQuizScience from "./pages/AcademicQuizScience";
 import AcademicQuizMath from "./pages/AcademicQuizMath";
 import AcademicQuizSocial from "./pages/AcademicQuizSocial";
 import AptitudeQuiz from "./pages/AptitudeQuiz";
+import MBTIQuiz from "./pages/MBTIQuiz";
 function App() {
   return (
     <Router>
@@ -21,6 +22,7 @@ function App() {
           <Route path="/assessment/maths" element={<AcademicQuizMath />} />
           <Route path="/assessment/social" element={<AcademicQuizSocial />} />
           <Route path="/assessment/aptitude" element={<AptitudeQuiz/>} />
+          <Route path="/assessment/mbti" element={<MBTIQuiz />} />
         </Routes>
       </div>
     </Router>

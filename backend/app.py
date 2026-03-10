@@ -4,9 +4,15 @@ from academic import calculate_academic_scores, generate_academic_report, load_a
 from aptitude import generate_aptitude_report, calculate_aptitude_scores, sanitize_questions, select_aptitude_questions
 from academic_maths import load_math_questions, calculate_math_scores, generate_math_report, recommend_math_path
 from academic_social import load_social_questions, generate_social_report, calculate_social_scores, recommend_social_path
+from recommender import recommend_colleges
+from recommend_stream import recommend_stream
 from flask_cors import CORS
 from flask import request, jsonify
 from pymongo import MongoClient
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+from ml.mbti import predict_mbti
 
 app = Flask(__name__)
 CORS(app)
@@ -271,6 +277,122 @@ def save_aptitude():
     return jsonify({
         "message": "Aptitude saved successfully"
     })
+@app.route("/predict-mbti", methods=["POST"])
+def predict_mbti_route():
 
+    data = request.get_json()
+
+    if not data or "answers" not in data or "uid" not in data:
+        return jsonify({"error": "Invalid input"}), 400
+
+    uid = data["uid"]
+    answers = data["answers"]
+
+    try:
+        # -------- MODEL PREDICTION --------
+        personality, confidence = predict_mbti(answers)
+
+        result = {
+            "personality": personality,
+            "confidence": confidence
+        }
+
+        # -------- SAVE RESULT TO MONGO --------
+        users.update_one(
+            {"uid": uid},
+            {
+                "$set": {
+                    "mbti": result
+                }
+            },
+            upsert=True
+        )
+
+        # -------- RETURN RESULT --------
+        return jsonify({
+            "status": "success",
+            **result
+        })
+
+    except Exception as e:
+        return jsonify({
+            "error": str(e)
+        }), 400
+
+@app.route("/recommend-stream/<uid>", methods=["GET"])
+def recommend_stream_endpoint(uid):
+
+    user = users.find_one({"uid": uid}, {"_id": 0})
+
+    if not user:
+        return jsonify({
+            "message": "User profile not found"
+        }), 404
+
+    # -------- CHECK ASSESSMENTS --------
+
+    if not user.get("academic") or not user.get("riasec") or not user.get("aptitude"):
+        return jsonify({
+            "message": "Assessments incomplete",
+            "recommended_streams": []
+        }), 200
+
+    # -------- RECOMMENDATION --------
+
+    streams = recommend_stream(user)
+
+    response = [
+        {
+            "stream": stream,
+            "score": round(float(score), 3)
+        }
+        for stream, score in streams
+    ]
+
+    return jsonify({
+        "uid": uid,
+        "recommended_streams": response
+    })
+@app.route("/recommend-colleges/<uid>", methods=["GET"])
+def recommend_colleges_api(uid):
+
+    user = users.find_one({"uid": uid}, {"_id": 0})
+
+    if not user:
+        return jsonify({
+            "message": "User profile not found"
+        }), 404
+
+    # ---------- CHECK ASSESSMENTS ----------
+
+    if not user.get("academic") or not user.get("riasec") or not user.get("aptitude"):
+        return jsonify({
+            "message": "Assessments incomplete",
+            "recommended_stream": None,
+            "top_colleges": []
+        }), 200
+
+    # ---------- STREAM RECOMMENDATION ----------
+
+    streams = recommend_stream(user)
+
+    if not streams:
+        return jsonify({
+            "message": "Unable to determine stream",
+            "recommended_stream": None,
+            "top_colleges": []
+        }), 200
+
+    primary_stream = streams[0][0]
+
+    # ---------- COLLEGE RECOMMENDATION ----------
+
+    colleges = recommend_colleges(user, primary_stream)
+
+    return jsonify({
+        "uid": uid,
+        "recommended_stream": primary_stream,
+        "top_colleges": colleges
+    })
 if __name__ == "__main__":
     app.run(debug=True)

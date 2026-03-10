@@ -14,7 +14,7 @@ export default function AssessmentHub() {
         "Evaluate your interests, personality traits, and aptitude using structured scientific assessments.",
       quizzes: [
         { id: 1, name: "RIASEC Interest Test", route: "/assessment/riasec" },
-        { id: 2, name: "Personality Assessment", route: "/assessment/personality" },
+        { id: 2, name: "Personality Assessment", route: "/assessment/mbti" },
         { id: 3, name: "Aptitude Evaluation", route: "/assessment/aptitude" },
       ],
     },
